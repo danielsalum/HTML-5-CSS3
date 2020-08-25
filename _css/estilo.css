@@ -12,7 +12,8 @@
 		}
 		div#interface{
 			width:1200px;
-			margin:-20px auto 0px auto;
+			height:1550px;
+			margin: 0px auto 0px auto;
 			background-color: #ffffff; 
 			box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 			padding: 10px ; /*se os padding's forem todos iguais, pode digitar somente uma vez */
@@ -116,12 +117,34 @@
 		/**/
 		section#corpo{
 			display: block;
-			width:400px;
+			width:700px;
 			float: left;
+			border-right: 1px solid #606060;
+			padding-right: 15px;
 		}
 
 		aside#lateral {
-			display: block;
-			width: 400px;
+			display:block;
+			width: 460px;
 			float: right;
+			padding-top: 40px;
+		}
+		footer#rodape{
+			clear:both;
+			border-top: 1px solid #606060;
+		}
+		footer#rodape p{
+			text-align: center;
+		}
+		table#tabelaspec{
+			border: 1px solid #606060;
+			border-spacing: 0px;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+		table#tabelaspec td{
+			border: 1px solid #606060;
+			padding: 10px;
+			text-align: center;
 		}
